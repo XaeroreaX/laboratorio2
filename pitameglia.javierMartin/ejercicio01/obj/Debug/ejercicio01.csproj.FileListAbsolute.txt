@@ -1,0 +1,6 @@
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\bin\Debug\ejercicio01.exe.config
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\bin\Debug\ejercicio01.exe
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\bin\Debug\ejercicio01.pdb
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\obj\Debug\ejercicio01.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\obj\Debug\ejercicio01.exe
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio01\obj\Debug\ejercicio01.pdb

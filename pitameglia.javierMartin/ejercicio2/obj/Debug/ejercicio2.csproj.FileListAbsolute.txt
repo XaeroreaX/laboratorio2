@@ -1,0 +1,5 @@
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio2\bin\Debug\ejercicio2.exe.config
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio2\bin\Debug\ejercicio2.exe
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio2\bin\Debug\ejercicio2.pdb
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio2\obj\Debug\ejercicio2.exe
+D:\XaeroreaX\pitameglia.javierMartin\ejercicio2\obj\Debug\ejercicio2.pdb
