@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio02", "ejercicio2\e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio03", "ejercicio03\ejercicio03.csproj", "{D9816466-4FB4-4158-9C89-50E381248B70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vamos hacer una clase2", "vamos hacer una clase2\vamos hacer una clase2.csproj", "{CF963633-C91F-476E-B761-E93782DC913A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entida sello", "entida sello\entida sello.csproj", "{597F9926-0777-4F35-95C8-4845179F22F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{D9816466-4FB4-4158-9C89-50E381248B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9816466-4FB4-4158-9C89-50E381248B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9816466-4FB4-4158-9C89-50E381248B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF963633-C91F-476E-B761-E93782DC913A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF963633-C91F-476E-B761-E93782DC913A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF963633-C91F-476E-B761-E93782DC913A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF963633-C91F-476E-B761-E93782DC913A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597F9926-0777-4F35-95C8-4845179F22F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597F9926-0777-4F35-95C8-4845179F22F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597F9926-0777-4F35-95C8-4845179F22F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597F9926-0777-4F35-95C8-4845179F22F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

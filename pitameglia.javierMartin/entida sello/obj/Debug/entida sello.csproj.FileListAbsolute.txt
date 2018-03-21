@@ -1,0 +1,5 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\bin\Debug\entida sello.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\bin\Debug\entida sello.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\obj\Debug\entida sello.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\obj\Debug\entida sello.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\obj\Debug\entida sello.csprojResolveAssemblyReference.cache

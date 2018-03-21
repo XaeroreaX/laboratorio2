@@ -1,0 +1,4 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\bin\Release\entida sello.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\bin\Release\entida sello.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\obj\Release\entida sello.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entida sello\obj\Release\entida sello.pdb

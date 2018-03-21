@@ -28,10 +28,10 @@ namespace ejercicio03
 
             Console.Write("los numero primos son:");
 
-            for (i = 0; i <= numero; i++)
+            for (i = 1; i <= numero; i++)
             {
 
-                for (j = 0; j <= i; j++)
+                for (j = 1; j <= i; j++)
                 {
                     modulo = i % j;
                     if (modulo == 0) cont++;
@@ -39,7 +39,7 @@ namespace ejercicio03
 
                 if (cont <= 2) Console.Write(" " + i);
 
-
+                cont = 0;
             }
 
             Console.ReadKey();

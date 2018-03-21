@@ -1,0 +1,6 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\bin\Release\ejercicio03.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\bin\Release\ejercicio03.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\bin\Release\ejercicio03.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\obj\Release\ejercicio03.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\obj\Release\ejercicio03.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\ejercicio03\obj\Release\ejercicio03.pdb
