@@ -1,0 +1,6 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Release\pruebaGeometria.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Release\pruebaGeometria.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Release\pruebaGeometria.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Release\pruebaGeometria.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Release\pruebaGeometria.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Release\pruebaGeometria.csprojResolveAssemblyReference.cache
