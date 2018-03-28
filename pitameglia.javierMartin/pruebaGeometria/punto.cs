@@ -12,7 +12,7 @@ namespace geometria
         private int x;
         private int y;
 
-        public void Punto(int X, int Y)
+        public punto(int X, int Y)
         {
             this.SetX(X);
             this.SetY(Y);

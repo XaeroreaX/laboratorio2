@@ -18,6 +18,16 @@ namespace geometria
 
         public float Area()
         {
+
+            int largo;
+            int ancho;
+
+
+
+            largo = this.vertice4.GetX() - this.vertice1.GetX();
+            ancho = this.vertice2.GetY() - this.vertice1.GetY();
+
+            this.area = (float) ancho * largo;
             return this.area;
         }
 
@@ -38,19 +48,16 @@ namespace geometria
 
 
         public rectangulo(punto Vertice1, punto Vertice3)
-        {
-       
-            this.vertice2 = new punto();
-            
-            this.vertice4 = new punto();
+        {     
+           
 
             this.vertice1 = Vertice1;
             this.vertice3 = Vertice3;
 
 
-            this.vertice2.Punto(this.vertice1.GetX(), this.vertice3.GetY());
+            this.vertice2 = new punto(this.vertice1.GetX(), this.vertice3.GetY());
 
-            this.vertice2.Punto(this.vertice3.GetX(), this.vertice1.GetY());
+            this.vertice4 = new punto(this.vertice3.GetX(), this.vertice1.GetY());
 
 
         }

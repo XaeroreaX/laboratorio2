@@ -1,0 +1,7 @@
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Debug\pruebaGeometria.csprojResolveAssemblyReference.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Debug\pruebaGeometria.csproj.CoreCompileInputs.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Debug\pruebaGeometria.exe.config
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Debug\pruebaGeometria.exe
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\bin\Debug\pruebaGeometria.pdb
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Debug\pruebaGeometria.exe
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\pruebaGeometria\obj\Debug\pruebaGeometria.pdb
