@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>cosa.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:cosa.Fakes.Shimcosa">
+            <summary>Shim type of cosa.cosa</summary>
+        </member>
+        <member name="M:cosa.Fakes.Shimcosa.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Shimcosa.#ctor(cosa.cosa)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Shimcosa.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:cosa.Fakes.Shimcosa.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.Constructor">
+            <summary>Sets the shim of cosa.cosa()</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.ConstructorInt32">
+            <summary>Sets the shim of cosa.cosa(Int32 a)</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.ConstructorInt32String">
+            <summary>Sets the shim of cosa.cosa(Int32 a, String b)</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.ConstructorInt32StringDateTime">
+            <summary>Sets the shim of cosa.cosa(Int32 a, String b, DateTime c)</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.show">
+            <summary>Sets the shim of cosa.show()</summary>
+        </member>
+        <member name="T:cosa.Fakes.Shimcosa.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:cosa.Fakes.Shimcosa.AllInstances.show">
+            <summary>Sets the shim of cosa.show()</summary>
+        </member>
+        <member name="T:cosa.Fakes.Stubcosa">
+            <summary>Stub type of cosa.cosa</summary>
+        </member>
+        <member name="M:cosa.Fakes.Stubcosa.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Stubcosa.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Stubcosa.#ctor(System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Stubcosa.#ctor(System.Int32,System.String,System.DateTime)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:cosa.Fakes.Stubcosa.InitializeStub">
+            <summary>Initializes a new instance of type Stubcosa</summary>
+        </member>
+        <member name="P:cosa.Fakes.Stubcosa.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:cosa.Fakes.Stubcosa.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:cosa.Fakes.Stubcosa.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

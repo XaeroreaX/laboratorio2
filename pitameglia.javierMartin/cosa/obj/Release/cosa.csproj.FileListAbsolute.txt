@@ -1,0 +1,4 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\cosa\bin\Release\cosa.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\cosa\bin\Release\cosa.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\cosa\obj\Release\cosa.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\cosa\obj\Release\cosa.pdb
