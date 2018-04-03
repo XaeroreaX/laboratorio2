@@ -1,0 +1,5 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidades\bin\Release\entidades.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidades\bin\Release\entidades.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidades\obj\Release\entidades.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidades\obj\Release\entidades.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidades\obj\Release\entidades.csprojResolveAssemblyReference.cache

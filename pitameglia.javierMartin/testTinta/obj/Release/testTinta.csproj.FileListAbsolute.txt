@@ -1,0 +1,8 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\bin\Release\testTinta.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\bin\Release\testTinta.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\bin\Release\testTinta.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\bin\Release\entidades.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\bin\Release\entidades.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\obj\Release\testTinta.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\obj\Release\testTinta.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testTinta\obj\Release\testTinta.pdb
