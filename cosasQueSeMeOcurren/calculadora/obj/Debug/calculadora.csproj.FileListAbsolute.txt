@@ -1,0 +1,10 @@
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\bin\Debug\calculadora.exe
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\bin\Debug\calculadora.pdb
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.csprojResolveAssemblyReference.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.Form1.resources
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.csproj.GenerateResource.Cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.exe
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\calculadora\obj\Debug\calculadora.pdb
