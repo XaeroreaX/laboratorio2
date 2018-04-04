@@ -1,0 +1,8 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\bin\Release\testPaleta.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\bin\Release\testPaleta.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\bin\Release\testPaleta.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\bin\Release\entidadesClases6.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\bin\Release\entidadesClases6.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\obj\Release\testPaleta.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\obj\Release\testPaleta.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testPaleta\obj\Release\testPaleta.pdb
