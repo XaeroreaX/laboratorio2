@@ -3,3 +3,9 @@ D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\bin\Rel
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\bin\Release\entidadesClase8.pdb
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\obj\Release\entidadesClase8.dll
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\obj\Release\entidadesClase8.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\bin\Release\entidadesClase8.dll
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\bin\Release\entidadesClase8.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\obj\Release\entidadesClase08.csprojResolveAssemblyReference.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\obj\Release\entidadesClase08.csproj.CoreCompileInputs.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\obj\Release\entidadesClase8.dll
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\entidadesClase08\obj\Release\entidadesClase8.pdb

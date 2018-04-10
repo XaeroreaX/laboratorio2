@@ -34,6 +34,7 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lbxJugadores = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -58,19 +59,19 @@
             // 
             this.txtCantJug.Location = new System.Drawing.Point(162, 116);
             this.txtCantJug.Name = "txtCantJug";
-            this.txtCantJug.Size = new System.Drawing.Size(179, 20);
+            this.txtCantJug.Size = new System.Drawing.Size(234, 20);
             this.txtCantJug.TabIndex = 2;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(162, 59);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(179, 20);
+            this.txtNombre.Size = new System.Drawing.Size(234, 20);
             this.txtNombre.TabIndex = 3;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(34, 167);
+            this.btnAceptar.Location = new System.Drawing.Point(34, 302);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(178, 83);
             this.btnAceptar.TabIndex = 4;
@@ -80,18 +81,27 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(218, 167);
+            this.btnCancelar.Location = new System.Drawing.Point(218, 302);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(178, 83);
             this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
+            // lbxJugadores
+            // 
+            this.lbxJugadores.FormattingEnabled = true;
+            this.lbxJugadores.Location = new System.Drawing.Point(34, 145);
+            this.lbxJugadores.Name = "lbxJugadores";
+            this.lbxJugadores.Size = new System.Drawing.Size(362, 147);
+            this.lbxJugadores.TabIndex = 6;
+            // 
             // frmEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 262);
+            this.ClientSize = new System.Drawing.Size(428, 397);
+            this.Controls.Add(this.lbxJugadores);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtNombre);
@@ -113,5 +123,6 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ListBox lbxJugadores;
     }
 }

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using entidadesClase8;
+using entidadesClase08;
 
 namespace equipos.jugadore.wForm
 {
@@ -37,7 +37,12 @@ namespace equipos.jugadore.wForm
 
             this.txtNombre.Enabled = false;
 
+
+
             this.btnAceptar.Visible = false;
+
+            for (int i = 0; i < 1000; i++)
+                this.lbxJugadores.Items.Add("que es lo peor que podria pasar?!!!\n");
         }
     }
 }

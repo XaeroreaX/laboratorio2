@@ -10,3 +10,16 @@ D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.exe
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.pdb
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.frmEquipo.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.csprojResolveAssemblyReference.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.frmEquipo.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.frmJugador.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.Properties.Resources.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.csproj.GenerateResource.Cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.csproj.CoreCompileInputs.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.exe.config
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\entidadesClase8.dll
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\entidadesClase8.pdb

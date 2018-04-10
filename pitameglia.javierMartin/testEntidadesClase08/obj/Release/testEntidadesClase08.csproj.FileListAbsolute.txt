@@ -1,0 +1,9 @@
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\bin\Release\testEntidadesClase08.exe.config
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\bin\Release\testEntidadesClase08.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\bin\Release\testEntidadesClase08.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\bin\Release\entidadesClase8.dll
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\bin\Release\entidadesClase8.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\obj\Release\testEntidadesClase08.csprojResolveAssemblyReference.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\obj\Release\testEntidadesClase08.csproj.CoreCompileInputs.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\obj\Release\testEntidadesClase08.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase08\obj\Release\testEntidadesClase08.pdb

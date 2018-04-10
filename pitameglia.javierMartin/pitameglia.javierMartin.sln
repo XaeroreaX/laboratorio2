@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio01", "ejercicio01\ejercicio01.csproj", "{8FD2631F-6425-4678-869B-9691D50D01D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio02", "ejercicio2\ejercicio02.csproj", "{4CB00C33-E0D1-44BD-953E-1EC8D5EF23C0}"
@@ -10,6 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vamos hacer una clase2", "vamos hacer una clase2\vamos hacer una clase2.csproj", "{CF963633-C91F-476E-B761-E93782DC913A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entida sello", "entida sello\entida sello.csproj", "{597F9926-0777-4F35-95C8-4845179F22F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cosa", "cosa\cosa.csproj", "{8DE9CEEA-990F-48C5-8A2A-54002CD0DF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entidadesClase08", "entidadesClase08\entidadesClase08.csproj", "{2BC4EA48-52B1-4126-8CB1-FA19DAA33490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "equipos.jugadore.wForm", "equipos.jugadore.wForm\equipos.jugadore.wForm.csproj", "{A80F5BAA-2423-4C3C-B527-86BA03982C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEntidadesClase08", "testEntidadesClase08\testEntidadesClase08.csproj", "{C93E9B8D-882C-4F7A-B89D-D0F02A6E9B63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,8 +47,27 @@ Global
 		{597F9926-0777-4F35-95C8-4845179F22F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597F9926-0777-4F35-95C8-4845179F22F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597F9926-0777-4F35-95C8-4845179F22F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE9CEEA-990F-48C5-8A2A-54002CD0DF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE9CEEA-990F-48C5-8A2A-54002CD0DF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE9CEEA-990F-48C5-8A2A-54002CD0DF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE9CEEA-990F-48C5-8A2A-54002CD0DF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC4EA48-52B1-4126-8CB1-FA19DAA33490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC4EA48-52B1-4126-8CB1-FA19DAA33490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC4EA48-52B1-4126-8CB1-FA19DAA33490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC4EA48-52B1-4126-8CB1-FA19DAA33490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80F5BAA-2423-4C3C-B527-86BA03982C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80F5BAA-2423-4C3C-B527-86BA03982C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80F5BAA-2423-4C3C-B527-86BA03982C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80F5BAA-2423-4C3C-B527-86BA03982C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93E9B8D-882C-4F7A-B89D-D0F02A6E9B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93E9B8D-882C-4F7A-B89D-D0F02A6E9B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93E9B8D-882C-4F7A-B89D-D0F02A6E9B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93E9B8D-882C-4F7A-B89D-D0F02A6E9B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2B253A9-EEC5-4499-AE85-43026BDD0121}
 	EndGlobalSection
 EndGlobal

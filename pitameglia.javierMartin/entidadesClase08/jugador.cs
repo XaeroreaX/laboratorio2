@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace entidadesClase8
+namespace entidadesClase08
 {
     public class jugador
     {
