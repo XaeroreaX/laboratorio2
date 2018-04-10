@@ -1,0 +1,12 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\equipos.jugadore.wForm.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\entidadesClase8.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\bin\Release\entidadesClase8.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.frmJugador.resources
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.Properties.Resources.resources
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.csproj.GenerateResource.Cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\equipos.jugadore.wForm\obj\Release\equipos.jugadore.wForm.frmEquipo.resources

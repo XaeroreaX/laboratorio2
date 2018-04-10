@@ -1,0 +1,5 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\obj\Release\entidadesClase08.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\bin\Release\entidadesClase8.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\bin\Release\entidadesClase8.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\obj\Release\entidadesClase8.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase8\obj\Release\entidadesClase8.pdb
