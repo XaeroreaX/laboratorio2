@@ -16,6 +16,7 @@ namespace equipos.jugadore.wForm
         private jugador _jugador;
 
 
+
         public jugador getJugador()
         {
             return this._jugador;
@@ -24,6 +25,25 @@ namespace equipos.jugadore.wForm
         public frmJugador()
         {
             InitializeComponent();
+        }
+
+        public frmJugador(jugador _jugador)
+        {
+            InitializeComponent();
+
+
+
+            this.txtDni.Text = ""+_jugador.DNI;
+
+            this.txtDni.Enabled = false;
+
+            this.txtNombre.Text = _jugador.Nombre;
+
+            this.txtPartidosJugados.Text = ""+_jugador.PartidasJugadas;
+
+            this.txtGoles.Text = "" + _jugador.TotalGoles;
+
+
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -42,14 +62,19 @@ namespace equipos.jugadore.wForm
             validar = int.TryParse(this.txtGoles.Text, out goles);
 
             this._jugador = new jugador(dni, nombre, partidasJugadas, goles);
-            
 
-            MessageBox.Show(this._jugador.showData());
+            this.DialogResult = System.Windows.Forms.DialogResult.OK;
+            //MessageBox.Show(this._jugador.showData());
 
         }
 
 
         private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmJugador_Load(object sender, EventArgs e)
         {
 
         }

@@ -17,7 +17,7 @@ namespace equipos.jugadore.wForm
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmEquipo());
-            Application.Run(new frmJugador());
+            //Application.Run(new frmJugador());
         }
     }
 }

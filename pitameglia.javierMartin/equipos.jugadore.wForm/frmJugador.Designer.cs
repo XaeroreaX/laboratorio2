@@ -81,35 +81,35 @@
             this.txtDni.Location = new System.Drawing.Point(49, 37);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(139, 20);
-            this.txtDni.TabIndex = 4;
+            this.txtDni.TabIndex = 0;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(49, 101);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(139, 20);
-            this.txtNombre.TabIndex = 5;
+            this.txtNombre.TabIndex = 1;
             // 
             // txtPartidosJugados
             // 
             this.txtPartidosJugados.Location = new System.Drawing.Point(49, 157);
             this.txtPartidosJugados.Name = "txtPartidosJugados";
             this.txtPartidosJugados.Size = new System.Drawing.Size(139, 20);
-            this.txtPartidosJugados.TabIndex = 6;
+            this.txtPartidosJugados.TabIndex = 2;
             // 
             // txtGoles
             // 
             this.txtGoles.Location = new System.Drawing.Point(49, 218);
             this.txtGoles.Name = "txtGoles";
             this.txtGoles.Size = new System.Drawing.Size(139, 20);
-            this.txtGoles.TabIndex = 7;
+            this.txtGoles.TabIndex = 3;
             // 
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(194, 37);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(197, 201);
-            this.btnAceptar.TabIndex = 8;
+            this.btnAceptar.TabIndex = 4;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -141,6 +141,7 @@
             this.Controls.Add(this.lblDni);
             this.Name = "frmJugador";
             this.Text = "frmJugador";
+            this.Load += new System.EventHandler(this.frmJugador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
