@@ -16,6 +16,12 @@ namespace entidadesClase08
         private int totalGoles;
 
 
+        public long DNI { get { return this.dni; } set { this.dni = value; } }
+        public string Nombre { get { return this.nombre; } set { this.nombre = value; } }
+        public int PartidasJugadas { get { return this.partidasJugadas; } set { this.partidasJugadas = value; } }
+        public float PromedioGoles { get { return this.promedioGoles; } set { this.promedioGoles = value; } }
+        public int TotalGoles { get { return this.totalGoles; } set { this.totalGoles = value; } }
+
 
         //////////////////////////////////////////////////////////////////////////////////////////CONSTRUCTORES
 

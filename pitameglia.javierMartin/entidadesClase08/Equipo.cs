@@ -14,6 +14,18 @@ namespace entidadesClase08
 
         private string nombre;
 
+        public List<jugador> Jugadores
+        {
+
+            get { return this.jugadores; } 
+
+            set
+            {
+                if (value is List<jugador>)
+                    this.jugadores = value;
+            } 
+        }
+
         //////////////////////////////////////////////////////////////////////////////////////////CONSTRUCTORES
 
         public Equipo(short cantidadMax, string Nombre)
@@ -63,6 +75,30 @@ namespace entidadesClase08
 
 
            return returnAux;
+        }
+
+        public static bool operator -(Equipo equipo, jugador jugador)
+        {
+            bool returnAux = false;
+
+            if ((object)equipo == null || (object)jugador == null) return returnAux;
+
+            int index = 0;
+
+            foreach (jugador element in equipo.jugadores)
+            {
+                if (jugador == element) break;
+                index++;
+            }
+
+            if (equipo.jugadores.Count > index)
+            {
+                equipo.jugadores.RemoveAt(index);
+                returnAux = true;
+            }
+
+
+            return returnAux;
         }
 
 
