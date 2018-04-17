@@ -1,0 +1,2 @@
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\obj\Debug\testEntidadesClase10.csprojResolveAssemblyReference.cache
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\testEntidadesClase10.exe.config

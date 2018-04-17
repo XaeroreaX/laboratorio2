@@ -1,0 +1,5 @@
+D:\VisualStudio\entidadesClase10\entidadesClase10\obj\Debug\entidadesClase10.csprojResolveAssemblyReference.cache
+D:\VisualStudio\entidadesClase10\entidadesClase10\bin\Debug\entidadesClase10.dll
+D:\VisualStudio\entidadesClase10\entidadesClase10\bin\Debug\entidadesClase10.pdb
+D:\VisualStudio\entidadesClase10\entidadesClase10\obj\Debug\entidadesClase10.dll
+D:\VisualStudio\entidadesClase10\entidadesClase10\obj\Debug\entidadesClase10.pdb
