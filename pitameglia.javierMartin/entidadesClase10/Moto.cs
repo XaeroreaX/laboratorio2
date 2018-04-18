@@ -12,11 +12,29 @@ namespace entidadesClase10
 
         public Moto(float cilindrada, string patente, byte cantRuedas, EMarca marca) : base(patente, cantRuedas, marca) { this._cilindrada = cilindrada; }
 
-        public string showMoto()
+        public override bool Equals(object obj)
+        {
+            bool miBool = false;
+
+            if (obj is Moto)
+            {
+                if(this == (Vehiculo)obj) miBool = true;
+            }
+            return miBool;
+        }
+
+
+        public override string acelerar()
+        {
+            return "MOTO esta acelerado";
+        }
+
+        public override string ToString()
         {
             string mensage;
+            mensage = "MOTO\n";
 
-            mensage = base.show();
+            mensage += base.show();
             mensage += "\nCantidad de cilindrada:" + this._cilindrada;
 
 

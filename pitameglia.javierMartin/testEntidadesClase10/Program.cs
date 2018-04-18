@@ -21,9 +21,12 @@ namespace testEntidadesClase10
 
             Moto[] motos = new Moto[3];
 
-            autos[0] = new Auto(4,"fds-345",4,EMarca.Fiat);
-            autos[1] = new Auto(4, "tgh-785", 4, EMarca.Iveco);
-            autos[2] = new Auto(2, "rey-354", 5, EMarca.Fiat);
+
+
+            autos[0] = new Auto(4, "rey-345", 4, EMarca.Fiat);
+            autos[1] = new Auto(4, "zzz-785", 4, EMarca.Iveco);
+            autos[2] = new Auto(2, "fds-354", 5, EMarca.Fiat);
+
 
             camiones[0] = new Camion(5, "fds-345", 4, EMarca.Scania);
             camiones[1] = new Camion(5, "fds-345", 4, EMarca.Scania);
@@ -31,7 +34,11 @@ namespace testEntidadesClase10
 
             motos[0] = new Moto(5, "fds-345", 4, EMarca.Scania);
             motos[1] = new Moto(5, "fds-345", 4, EMarca.Scania);
-            motos[2] = new Moto(5, "fds-345", 4, EMarca.Scania);
+            motos[2] = new Moto(5, "fds-344", 4, EMarca.Scania);
+
+            bool miBool = motos[1].Equals(motos[2]);
+
+            if (miBool == true) Console.WriteLine("ES TRUE!!!");
 
             vehiculos.Add(autos[1]);
             vehiculos.Add(camiones[2]);
@@ -46,6 +53,8 @@ namespace testEntidadesClase10
             elLavadero = new Lavadero(vehiculos, 4, 8, 2);
 
             Console.WriteLine(elLavadero.showLavadero);
+
+            Console.ReadKey();
 
         }
     }

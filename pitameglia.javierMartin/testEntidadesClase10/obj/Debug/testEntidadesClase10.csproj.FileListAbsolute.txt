@@ -1,2 +1,8 @@
 D:\VisualStudio\entidadesClase10\testEntidadesClase10\obj\Debug\testEntidadesClase10.csprojResolveAssemblyReference.cache
 D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\testEntidadesClase10.exe.config
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\testEntidadesClase10.exe
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\testEntidadesClase10.pdb
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\entidadesClase10.dll
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\bin\Debug\entidadesClase10.pdb
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\obj\Debug\testEntidadesClase10.exe
+D:\VisualStudio\entidadesClase10\testEntidadesClase10\obj\Debug\testEntidadesClase10.pdb

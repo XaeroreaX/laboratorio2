@@ -29,29 +29,20 @@ namespace entidadesClase10
             {
                 string miString;
 
+                this._vehiculos.Sort(Vehiculo.compareVehiculo);
+
                 miString = "----------------------------------\n";
-                miString += "-------LISTA DE VEHICULOS--------\n";
+                miString += "-------LISTA DE VEHICULOS---------\n";
                 miString += "----------------------------------\n\n";
 
                 foreach (Vehiculo element in this._vehiculos)
                 {
-                    if (element is Auto)
-                    {
-                        miString += ((Auto)element).showAuto() + "\n\n";
-                        miString += "------------------------------------------------\n\n";
-                    }
 
-                    if (element is Camion)
-                    {
-                        miString += ((Camion)element).showCamion()+ "\n\n";
-                        miString += "------------------------------------------------\n\n";
-                    }
+                    miString += element.ToString() + "\n";
+                    miString += element.acelerar() + "\n";
+                    miString += "------------------------------------------------\n\n";
+                    
 
-                    if (element is Moto)
-                    {
-                        miString += ((Moto)element).showMoto() + "\n\n";
-                        miString += "------------------------------------------------\n\n";
-                    }
                 }
 
                 miString += "precio por autos:"+this._precioAuto+"\n";
