@@ -11,11 +11,12 @@ namespace Luchador
 
         #region Fields
 
+        protected string _name;
+
+
 
         //ground
         protected Input _punch;
-
-        protected Input _crounchPucn;
 
         protected Input _kick;
 
@@ -25,7 +26,31 @@ namespace Luchador
 
         protected Input _heavySlash;
 
-        protected Input _
+        protected Input _dust;
+
+
+
+        //crounch
+        protected Input _crounchPucnh;
+
+        protected Input _crounchKick;
+
+        protected Input _crounchSlash;
+
+        protected Input _crounchHeavySlash;
+
+        //air
+        protected Input _jumpPucnh;
+
+        protected Input _jumpKick;
+
+        protected Input _jumpSlash;
+
+        protected Input _jumpHeavySlash;
+
+
+
+        protected Input _RomanCancel;
 
 
         #endregion

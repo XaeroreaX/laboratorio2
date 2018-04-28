@@ -3,33 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using geometria;
 
 namespace Luchador
 {
-    public class Input
+    class Combo
     {
 
         #region Fields
 
-        private string _entrada;
+        int _daño;
 
-        private string _name;
+        private List<Input> _combo;
 
-        private int _daño;
-
-        private int _cantGolpes;
-
-        private List<string> _conectadoPor;
-
-        private List<string> _conecta;
-
-        private bool _air;
-
-        private bool _crounch;
-
-        private rectangulo _hitBox;
-
+        private bool _isSetup;
 
         #endregion
 
@@ -51,8 +37,6 @@ namespace Luchador
 
 
         #endregion
-
-
 
     }
 }

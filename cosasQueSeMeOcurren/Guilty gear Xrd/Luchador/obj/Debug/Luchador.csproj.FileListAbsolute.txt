@@ -1,0 +1,6 @@
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\bin\Debug\Luchador.dll
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\bin\Debug\Luchador.pdb
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\obj\Debug\Luchador.csprojResolveAssemblyReference.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\obj\Debug\Luchador.csproj.CoreCompileInputs.cache
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\obj\Debug\Luchador.dll
+C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\obj\Debug\Luchador.pdb

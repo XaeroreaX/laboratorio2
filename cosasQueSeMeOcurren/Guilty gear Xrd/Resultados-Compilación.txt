@@ -1,0 +1,15 @@
+﻿1>------ Operación Compilar iniciada: proyecto: Luchador, configuración: Debug Any CPU ------
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(27,22,27,26): warning CS0169: El campo 'Input._air' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(29,22,29,30): warning CS0169: El campo 'Input._crounch' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Combo.cs(14,13,14,18): warning CS0169: El campo 'Combo._daño' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(17,24,17,29): warning CS0169: El campo 'Input._name' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(31,28,31,35): warning CS0169: El campo 'Input._hitBox' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(19,21,19,26): warning CS0169: El campo 'Input._daño' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(15,24,15,32): warning CS0169: El campo 'Input._entrada' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(23,30,23,43): warning CS0169: El campo 'Input._conectadoPor' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Combo.cs(18,22,18,30): warning CS0169: El campo 'Combo._isSetup' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Combo.cs(16,29,16,35): warning CS0169: El campo 'Combo._combo' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(21,21,21,32): warning CS0169: El campo 'Input._cantGolpes' nunca se usa
+1>C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\Input.cs(25,30,25,38): warning CS0169: El campo 'Input._conecta' nunca se usa
+1>  Luchador -> C:\Users\jmpit\Downloads\proyectos\visual estudio\laboratorio2-master\cosasQueSeMeOcurren\Guilty gear Xrd\Luchador\bin\Debug\Luchador.dll
+========== Compilar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
