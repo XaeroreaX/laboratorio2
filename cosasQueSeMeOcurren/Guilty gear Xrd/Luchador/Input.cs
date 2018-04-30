@@ -16,19 +16,21 @@ namespace Luchador
 
         private string _name;
 
-        private int _daño;
+        private int _damage;
 
-        private int _cantGolpes;
+        private int _TotalHit;
 
-        private List<string> _conectadoPor;
+                                                                                                                                                                                                        //private int _cantGolpes;
 
-        private List<string> _conecta;
+                                                                                                                                                                                                        //private string _conectadoPor;
 
-        private bool _air;
+                                                                                                                                                                                                        //private List<string> _conecta;
 
-        private bool _crounch;
+                                                                                                                                                                                                        //private bool _air;
 
-        private rectangulo _hitBox;
+                                                                                                                                                                                                        //private bool _crounch;
+
+                                                                                                                                                                                                        //private rectangulo _hitBox;
 
 
         #endregion
@@ -43,12 +45,25 @@ namespace Luchador
 
         #region Constructor
 
+        public Input(string entrada, string name)
+        {
+            this._entrada = entrada;
+            this._name = name;
+            this._damage = 0;
+
+        }
+
         #endregion
 
         #endregion
 
         #region Operators
 
+        public static implicit operator string(Input input)
+        {
+
+            return input._entrada;
+        }
 
         #endregion
 

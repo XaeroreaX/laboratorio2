@@ -44,8 +44,8 @@
     <Compile Include="Input.cs" />
     <Compile Include="Luchador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="punto.cs" />
-    <Compile Include="rectangulo.cs" />
+    <Compile Include="Punto.cs" />
+    <Compile Include="Box.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

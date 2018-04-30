@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Luchador
 {
-    class Combo
+    public class Combo
     {
 
         #region Fields
