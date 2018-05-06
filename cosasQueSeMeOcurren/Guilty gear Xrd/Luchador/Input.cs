@@ -12,23 +12,21 @@ namespace Luchador
 
         #region Fields
 
-        private string _entrada;
+        private string _input;
 
         private string _name;
 
-        private int _damage;
+        private List<int> _hits; // daño por golpe
 
-        private int _TotalHit;
+        private EstatePlayer _estate;
 
-                                                                                                                                                                                                        //private int _cantGolpes;
-
+                                                                                                                                                                                                        
                                                                                                                                                                                                         //private string _conectadoPor;
 
                                                                                                                                                                                                         //private List<string> _conecta;
 
-                                                                                                                                                                                                        //private bool _air;
-
-                                                                                                                                                                                                        //private bool _crounch;
+                                                                                                                                         
+                                                                                                                                                                                         
 
                                                                                                                                                                                                         //private rectangulo _hitBox;
 
@@ -45,11 +43,13 @@ namespace Luchador
 
         #region Constructor
 
-        public Input(string entrada, string name)
+        public Input(string input, string name, EstatePlayer estate)
         {
-            this._entrada = entrada;
+            this._input = input;
             this._name = name;
-            this._damage = 0;
+            this._estate = estate;
+
+            this._hits = new List<int>();
 
         }
 
@@ -62,8 +62,52 @@ namespace Luchador
         public static implicit operator string(Input input)
         {
 
-            return input._entrada;
+            return input._input;
         }
+
+        public static Input operator +(Input input, int hit)
+        {
+            if((object)input != null) input._hits.Add(hit);
+
+            return input;
+
+        }
+
+        public static bool operator ==(Fighter fighter, Input input)
+        {
+            bool returnAux = false;
+
+            if ((object)fighter == null)
+            {
+                return returnAux;
+            }
+            else if ((object)input == null) return returnAux;
+
+            if (fighter.Estate == input._estate) returnAux = true;
+
+
+            return returnAux;
+
+        }
+
+        public static bool operator !=(Fighter fighter, Input input)
+        {
+
+            bool returnAux = false;
+
+            if ((object)fighter == null)
+            {
+                return returnAux;
+            }
+            else if ((object)input == null) return returnAux;
+
+            returnAux = !(fighter == input);
+
+            return returnAux;
+
+        }
+
+
 
         #endregion
 

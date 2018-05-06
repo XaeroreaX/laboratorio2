@@ -40,9 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estate.cs" />
     <Compile Include="Combo.cs" />
     <Compile Include="Input.cs" />
-    <Compile Include="Luchador.cs" />
+    <Compile Include="Fighter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Punto.cs" />
     <Compile Include="Box.cs" />
