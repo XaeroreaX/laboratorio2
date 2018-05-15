@@ -1,0 +1,8 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\bin\Release\testEntidadesClase15.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\bin\Release\testEntidadesClase15.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\bin\Release\testEntidadesClase15.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\bin\Release\entidadesClase15.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\bin\Release\entidadesClase15.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\obj\Release\testEntidadesClase15.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\obj\Release\testEntidadesClase15.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\testEntidadesClase15\obj\Release\testEntidadesClase15.pdb

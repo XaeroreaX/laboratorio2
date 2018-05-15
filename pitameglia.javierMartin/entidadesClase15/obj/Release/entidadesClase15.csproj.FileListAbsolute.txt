@@ -1,0 +1,4 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase15\bin\Release\entidadesClase15.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase15\bin\Release\entidadesClase15.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase15\obj\Release\entidadesClase15.dll
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\entidadesClase15\obj\Release\entidadesClase15.pdb
