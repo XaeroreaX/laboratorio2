@@ -1,0 +1,8 @@
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\bin\Debug\TestEntidadesClase16.exe.config
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\bin\Debug\TestEntidadesClase16.exe
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\bin\Debug\TestEntidadesClase16.pdb
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\bin\Debug\entidadesClase16.dll
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\bin\Debug\entidadesClase16.pdb
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\obj\Debug\TestEntidadesClase16.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\obj\Debug\TestEntidadesClase16.exe
+D:\VisualStudio\Pitameglia.JavierMartin.2A\TestEntidadesClase16\obj\Debug\TestEntidadesClase16.pdb

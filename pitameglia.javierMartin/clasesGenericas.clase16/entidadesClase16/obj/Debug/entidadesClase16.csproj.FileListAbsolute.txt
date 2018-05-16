@@ -1,0 +1,5 @@
+D:\VisualStudio\Pitameglia.JavierMartin.2A\entidadesClase16\obj\Debug\entidadesClase16.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Pitameglia.JavierMartin.2A\entidadesClase16\bin\Debug\entidadesClase16.dll
+D:\VisualStudio\Pitameglia.JavierMartin.2A\entidadesClase16\bin\Debug\entidadesClase16.pdb
+D:\VisualStudio\Pitameglia.JavierMartin.2A\entidadesClase16\obj\Debug\entidadesClase16.dll
+D:\VisualStudio\Pitameglia.JavierMartin.2A\entidadesClase16\obj\Debug\entidadesClase16.pdb
