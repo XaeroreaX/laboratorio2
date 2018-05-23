@@ -1,0 +1,11 @@
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\bin\Debug\GuardarJugador.exe.config
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.csprojResolveAssemblyReference.cache
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.frmJugador.resources
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.Properties.Resources.resources
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.csproj.GenerateResource.Cache
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\bin\Debug\GuardarJugador.exe
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\bin\Debug\GuardarJugador.pdb
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\bin\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\bin\Debug\entidades.pdb
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.exe
+D:\VisualStudio\XaeroreaX\clase19\GuardarJugador\obj\Debug\GuardarJugador.pdb
