@@ -54,11 +54,9 @@ namespace Vehiculos
 
         #region Methods
 
-        double CalcularImpuesto()
+        double IAFIP.CalcularImpuesto()
         {
-
             return this._precio * 1.28;
-
         }
 
         #region Constructor
