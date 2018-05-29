@@ -1,0 +1,10 @@
+D:\VisualStudio\XaeroreaX\clase19\entidades\obj\Debug\entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\XaeroreaX\clase19\entidades\bin\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase19\entidades\bin\Debug\entidades.pdb
+D:\VisualStudio\XaeroreaX\clase19\entidades\obj\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase19\entidades\obj\Debug\entidades.pdb
+D:\VisualStudio\clase20\entidades\obj\Debug\entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\clase20\entidades\obj\Debug\entidades.dll
+D:\VisualStudio\clase20\entidades\obj\Debug\entidades.pdb
+D:\VisualStudio\clase20\entidades\bin\Debug\entidades.dll
+D:\VisualStudio\clase20\entidades\bin\Debug\entidades.pdb

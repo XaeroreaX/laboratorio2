@@ -1,0 +1,8 @@
+D:\VisualStudio\clase20\testEntidades20\bin\Debug\testEntidades20.exe.config
+D:\VisualStudio\clase20\testEntidades20\bin\Debug\testEntidades20.exe
+D:\VisualStudio\clase20\testEntidades20\bin\Debug\testEntidades20.pdb
+D:\VisualStudio\clase20\testEntidades20\bin\Debug\entidadesClase20.dll
+D:\VisualStudio\clase20\testEntidades20\bin\Debug\entidadesClase20.pdb
+D:\VisualStudio\clase20\testEntidades20\obj\Debug\testEntidades20.csprojResolveAssemblyReference.cache
+D:\VisualStudio\clase20\testEntidades20\obj\Debug\testEntidades20.exe
+D:\VisualStudio\clase20\testEntidades20\obj\Debug\testEntidades20.pdb
