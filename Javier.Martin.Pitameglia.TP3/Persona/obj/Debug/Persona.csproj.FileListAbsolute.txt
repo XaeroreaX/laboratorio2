@@ -1,0 +1,2 @@
+C:\Users\jmpit\Favorites\proyectos\visual estudio\laboratorio2-master\Javier.Martin.Pitameglia.TP3\Persona\obj\Debug\Persona.csprojResolveAssemblyReference.cache
+C:\Users\jmpit\Favorites\proyectos\visual estudio\laboratorio2-master\Javier.Martin.Pitameglia.TP3\Persona\obj\Debug\Persona.csproj.CoreCompileInputs.cache
