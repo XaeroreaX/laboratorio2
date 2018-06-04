@@ -12,7 +12,7 @@ namespace EntidadesAbstractas
     public abstract class Persona
     {
 
-        public enum ENacionalidad { Argentino, Extreangero,}
+        public enum ENacionalidad { Argentino, Extreangero, }
 
 
         #region Fields
@@ -33,13 +33,15 @@ namespace EntidadesAbstractas
 
         public string Apellido { get { return this._apellido; } set { this._apellido = value; } }
 
-        public int DNI {
+        public int DNI
+        {
             get { return this._dni; }
 
-            set {
+            set
+            {
 
                 this._dni = Persona.ValidarDni(value.ToString(), this._nacionalidad);
-                
+
             }
 
         }
@@ -48,7 +50,8 @@ namespace EntidadesAbstractas
 
         public string Nombre { get { return this._nombre; } set { this._nombre = value; } }
 
-        public string StringToDni {
+        public string StringToDni
+        {
 
             set
             {
@@ -62,7 +65,7 @@ namespace EntidadesAbstractas
                 {
                     this.DNI = ElValue;
                 }
-                
+
 
             }
 
@@ -89,9 +92,9 @@ namespace EntidadesAbstractas
 
             int Dni;
 
-            
-            if(int.TryParse(dni,out Dni) == true)
-            { 
+
+            if (int.TryParse(dni, out Dni) == true)
+            {
                 if (nacionalidad == ENacionalidad.Argentino && (Dni <= 89999999 && Dni >= 1))
                 {
                     returnAux = Dni;
@@ -110,7 +113,7 @@ namespace EntidadesAbstractas
             this.Nombre = nombre;
             this.Apellido = apellido;
             this.StringToDni = dni;
-            
+
 
         }
 
@@ -123,23 +126,20 @@ namespace EntidadesAbstractas
             Random random = new Random();
 
             this.DNI = random.Next(1, 89999999);
-            
+
 
         }
 
         public Persona() : this("Unknow", "Unknow", ENacionalidad.Extreangero)
         {
-                
+
         }
 
         #endregion
 
         #endregion
 
-        #region Operators
-
-
-        #endregion
+       
 
 
     }
@@ -158,7 +158,7 @@ namespace EntidadesAbstractas
         #endregion
 
 
-        
+
 
         #region Methods
 
@@ -166,10 +166,10 @@ namespace EntidadesAbstractas
         {
             bool returnAux = false;
 
-            if((Object) obj != null)
-            { 
+            if ((Object)obj != null)
+            {
 
-                if(this.GetType() == obj.GetType())
+                if (this.GetType() == obj.GetType())
                 {
                     if (this._legajo == ((Universitario)obj)._legajo) returnAux = true;
                 }
@@ -184,7 +184,7 @@ namespace EntidadesAbstractas
 
             string message = base.ToString(); ;
 
-            message += "\nLEGAJO"+this._legajo+"\n";
+            message += "\nLEGAJO" + this._legajo + "\n";
 
             return message;
 
@@ -209,7 +209,7 @@ namespace EntidadesAbstractas
         {
             bool returnAux = false;
 
-            if((object) pg1 != null && (object) pg2 != null)
+            if ((object)pg1 != null && (object)pg2 != null)
             {
 
                 returnAux = pg1.Equals((object)pg2);
@@ -241,12 +241,18 @@ namespace EntidadesAbstractas
 
 
 
+    public enum EClase { Programacion, Lavoratorio, Legislacion, SPD }
+
+
+    public enum EEstadoCuenta { AlDia, Deudor, Becado }
+
+
     public sealed class Alumno : Universitario
     {
 
-        public enum EEstadoCuenta { AlDia, Deudor, Becado}
+        
 
-        public enum EClase { Programacion, Lavoratorio, Legislacion, SPD}
+        
 
 
         #region Fields
@@ -262,6 +268,10 @@ namespace EntidadesAbstractas
 
         #region Methods
 
+        public override string ToString()
+        {
+            return this.MostrarDatos();
+        }
 
         protected override string MostrarDatos()
         {
@@ -270,10 +280,85 @@ namespace EntidadesAbstractas
             message += base.MostrarDatos();
 
             message += "\nESTADO DE CUENTA" + this._estadoCuenta.ToString() + "\n";
-            message += "TOMA CLASE DE" + this._claseQueToma.ToString()+"\n";
+            message += this.ParticiparEnClase();
 
             return message;
         }
+
+        protected override string ParticiparEnClase()
+        {
+            return "TOMA CLASE DE" + this._claseQueToma.ToString() + "\n";
+        }
+
+
+        #region Constructor
+
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClase claseQueToma, EEstadoCuenta estadoCuenta) : base(legajo: id, nacionalidad: nacionalidad, apellido: apellido, nombre: nombre, dni: dni)
+        {
+
+            this._claseQueToma = claseQueToma;
+            this._estadoCuenta = estadoCuenta;
+        }
+
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClase claseQueToma) : this(nombre: nombre, apellido: apellido, nacionalidad: nacionalidad, dni: dni, id: id, claseQueToma: claseQueToma, estadoCuenta: EEstadoCuenta.AlDia) { }
+
+        public Alumno() : this(id: 1, nombre: "Unknow", apellido: "Unknow", nacionalidad: ENacionalidad.Argentino, claseQueToma: EClase.Programacion, dni: "45") { }
+
+        #endregion
+
+        #endregion
+
+        #region Operators
+
+        public static bool operator ==(Alumno a, EClase clase)
+        {
+            bool returnAux = false;
+
+            if((object)a != null && (object) clase != null)
+            {
+
+                if(a._estadoCuenta != EEstadoCuenta.Deudor)
+                {
+
+                    if (a._claseQueToma == clase) returnAux = true;
+
+                }
+
+            }
+
+            return returnAux;
+
+        }
+
+
+
+        public static bool operator !=(Alumno a, EClase clase)
+        {
+
+            return !(a == clase);
+
+        }
+
+
+        #endregion
+
+
+    }
+
+    public sealed class Profesor : Universitario
+    {
+
+
+        #region Fields
+
+        private static Queue<EClase> _clasesDelDia;
+
+        private static Random _ramdom;
+
+        #endregion
+
+
+        #region Methods
 
         protected override string ParticiparEnClase()
         {
@@ -281,18 +366,24 @@ namespace EntidadesAbstractas
         }
 
 
+
         #region Constructor
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClase claseQueToma, EEstadoCuenta estadoCuenta) : base(legajo: id, nacionalidad:nacionalidad, apellido: apellido, nombre: nombre, dni: dni)
+        public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad) : base(id, nombre, apellido, dni, nacionalidad)
         {
 
-            this._claseQueToma = claseQueToma;
-            this._estadoCuenta = estadoCuenta;
+
+
         }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClase claseQueToma) : this(nombre: nombre,apellido: apellido, nacionalidad: nacionalidad, dni: dni, id: id, claseQueToma: claseQueToma, estadoCuenta: EEstadoCuenta.AlDia) { }
+        public Profesor() : this(1, "Unknow", "Unknow", "11111", ENacionalidad.Argentino)
+        { }
 
-        public Alumno() : this(id: 1, nombre: "Unknow", apellido: "Unknow", nacionalidad: ENacionalidad.Argentino, claseQueToma: EClase.Programacion, dni:"45") { }
+        public static Profesor()
+        {
+            _clasesDelDia = new Queue<EClase>();
+
+        }
 
         #endregion
 
@@ -305,6 +396,7 @@ namespace EntidadesAbstractas
 
 
     }
+
 
 }
 
