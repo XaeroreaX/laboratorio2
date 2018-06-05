@@ -365,7 +365,23 @@ namespace EntidadesAbstractas
             throw new NotImplementedException();
         }
 
+        protected override string MostrarDatos()
+        {
 
+            string message = "Profesor:\n\n";
+
+            message += base.ToString();
+
+            message += "Participar en clase:" + this.ParticiparEnClase();
+
+            return message;
+        }
+
+        public override string ToString()
+        { 
+
+            return this.MostrarDatos();
+        }
 
         #region Constructor
 
@@ -379,9 +395,11 @@ namespace EntidadesAbstractas
         public Profesor() : this(1, "Unknow", "Unknow", "11111", ENacionalidad.Argentino)
         { }
 
-        public static Profesor()
+        static Profesor()
         {
             _clasesDelDia = new Queue<EClase>();
+
+            _ramdom = new Random();
 
         }
 
@@ -390,6 +408,7 @@ namespace EntidadesAbstractas
         #endregion
 
         #region Operators
+
 
 
         #endregion
