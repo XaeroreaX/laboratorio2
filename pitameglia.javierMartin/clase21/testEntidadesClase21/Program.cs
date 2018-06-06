@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using entidades;
 
 namespace testEntidadesClase21
@@ -12,14 +14,18 @@ namespace testEntidadesClase21
         static void Main(string[] args)
         {
 
-            List<Persona> personas = new List<Persona>();
+            DataTable personita = Persona.TraerTodosTabla();
 
-            Persona persona = new Persona("12", "dsfsd,", 454);
 
-            personas = persona.TraerTodos();
+
+            foreach (DataRow element in personita.Rows)
+            {
+
+                Console.WriteLine(element.ToString());
+
+            }
 
             
-
             Console.ReadKey();
 
         }
