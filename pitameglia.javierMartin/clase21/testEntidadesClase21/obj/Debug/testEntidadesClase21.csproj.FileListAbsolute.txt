@@ -1,0 +1,8 @@
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\bin\Debug\testEntidadesClase21.exe.config
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\bin\Debug\testEntidadesClase21.exe
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\bin\Debug\testEntidadesClase21.pdb
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\bin\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\bin\Debug\entidades.pdb
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\obj\Debug\testEntidadesClase21.csprojResolveAssemblyReference.cache
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\obj\Debug\testEntidadesClase21.exe
+D:\VisualStudio\XaeroreaX\clase21\testEntidadesClase21\obj\Debug\testEntidadesClase21.pdb

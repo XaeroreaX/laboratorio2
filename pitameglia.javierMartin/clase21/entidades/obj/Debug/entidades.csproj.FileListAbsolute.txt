@@ -1,0 +1,6 @@
+D:\VisualStudio\XaeroreaX\clase21\entidades\bin\Debug\entidades.dll.config
+D:\VisualStudio\XaeroreaX\clase21\entidades\bin\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase21\entidades\bin\Debug\entidades.pdb
+D:\VisualStudio\XaeroreaX\clase21\entidades\obj\Debug\entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\XaeroreaX\clase21\entidades\obj\Debug\entidades.dll
+D:\VisualStudio\XaeroreaX\clase21\entidades\obj\Debug\entidades.pdb
