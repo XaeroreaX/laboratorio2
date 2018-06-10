@@ -16,5 +16,20 @@ namespace MainCorreo
         {
             InitializeComponent();
         }
+
+        private void FrmPpal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mtxtTrackingID_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
