@@ -1,0 +1,11 @@
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\bin\Debug\clase23Form.exe.config
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\bin\Debug\martin.mdf
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\bin\Debug\martin_log.ldf
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\bin\Debug\clase23Form.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\bin\Debug\clase23Form.pdb
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.csprojResolveAssemblyReference.cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.Form1.resources
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.Properties.Resources.resources
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.csproj.GenerateResource.Cache
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.exe
+D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Clase23\clase23Form\obj\Debug\clase23Form.pdb
