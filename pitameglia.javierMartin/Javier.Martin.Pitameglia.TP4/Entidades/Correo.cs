@@ -45,7 +45,7 @@ namespace Entidades
 
             Paquete algo =(Paquete) elemento;
 
-            throw new NotImplementedException();
+            return algo.ToString()+"("+this.Estado+")";
         }
 
 
@@ -58,7 +58,7 @@ namespace Entidades
 
         public override string ToString()
         {
-            return base.ToString();
+            return String.Format("{0} para {1}", this.TrackingID, this.DireccionDeEntrega);
         }
 
 
