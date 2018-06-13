@@ -1,0 +1,9 @@
+D:\VisualStudio\Clase24\frmEmpleado\bin\Debug\frmEmpleado.exe.config
+D:\VisualStudio\Clase24\frmEmpleado\bin\Debug\frmEmpleado.exe
+D:\VisualStudio\Clase24\frmEmpleado\bin\Debug\frmEmpleado.pdb
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.Form1.resources
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.Properties.Resources.resources
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.csproj.GenerateResource.Cache
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.exe
+D:\VisualStudio\Clase24\frmEmpleado\obj\Debug\frmEmpleado.pdb

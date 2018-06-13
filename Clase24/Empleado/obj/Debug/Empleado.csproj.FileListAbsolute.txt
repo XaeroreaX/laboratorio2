@@ -1,0 +1,5 @@
+D:\VisualStudio\Clase24\Empleado\obj\Debug\Empleado.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Clase24\Empleado\bin\Debug\Empleado.dll
+D:\VisualStudio\Clase24\Empleado\bin\Debug\Empleado.pdb
+D:\VisualStudio\Clase24\Empleado\obj\Debug\Empleado.dll
+D:\VisualStudio\Clase24\Empleado\obj\Debug\Empleado.pdb

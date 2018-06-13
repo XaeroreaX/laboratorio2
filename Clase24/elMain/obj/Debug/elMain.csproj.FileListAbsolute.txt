@@ -1,0 +1,8 @@
+D:\VisualStudio\Clase24\elMain\bin\Debug\elMain.exe.config
+D:\VisualStudio\Clase24\elMain\bin\Debug\elMain.exe
+D:\VisualStudio\Clase24\elMain\bin\Debug\elMain.pdb
+D:\VisualStudio\Clase24\elMain\bin\Debug\Empleado.dll
+D:\VisualStudio\Clase24\elMain\bin\Debug\Empleado.pdb
+D:\VisualStudio\Clase24\elMain\obj\Debug\elMain.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Clase24\elMain\obj\Debug\elMain.exe
+D:\VisualStudio\Clase24\elMain\obj\Debug\elMain.pdb
