@@ -14,7 +14,10 @@ namespace MainCorreo
     {
         public FrmPpal()
         {
+
             InitializeComponent();
+
+            this.rtbMostrar.Enabled = false;
         }
 
         private void FrmPpal_Load(object sender, EventArgs e)
