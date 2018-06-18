@@ -17,3 +17,13 @@ D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitamegli
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
 D:\XaeroreaX\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.csprojResolveAssemblyReference.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
