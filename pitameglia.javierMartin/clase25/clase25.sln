@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clase25", "clase25\clase25.csproj", "{6FA8A914-F0F2-496B-BABE-4C780669A804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades.Alumnos", "Entidades.Alumnos\Entidades.Alumnos.csproj", "{CFC96A62-3579-4BA2-8346-3421754E3DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA8A914-F0F2-496B-BABE-4C780669A804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA8A914-F0F2-496B-BABE-4C780669A804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA8A914-F0F2-496B-BABE-4C780669A804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA8A914-F0F2-496B-BABE-4C780669A804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC96A62-3579-4BA2-8346-3421754E3DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC96A62-3579-4BA2-8346-3421754E3DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC96A62-3579-4BA2-8346-3421754E3DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC96A62-3579-4BA2-8346-3421754E3DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
