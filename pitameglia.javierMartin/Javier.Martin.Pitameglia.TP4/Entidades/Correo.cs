@@ -7,6 +7,7 @@ using System.Threading;
 using System.Data.SqlClient;
 
 
+
 namespace Entidades
 {
 
@@ -158,7 +159,7 @@ namespace Entidades
 
     }
 
-
+   
     public class Correo : IMostrar<List<Paquete>>
     {
 
@@ -181,6 +182,7 @@ namespace Entidades
         }
 
 
+        
 
         #endregion
 
@@ -190,14 +192,14 @@ namespace Entidades
         public string MostrarDatos(IMostrar<List<Paquete>> elemento)
         {
             string MD = "";
-
+            
             
             List<Paquete> elements = (List<Paquete>)elemento;
             
             foreach(Paquete element in elements)
             {
                 MD += element.ToString();
-
+                
             }
 
 
@@ -258,7 +260,7 @@ namespace Entidades
 
     }
 
-    public class PaqueteDAO
+    public static class PaqueteDAO
     {
         private SqlCommand _comando;
 
@@ -268,7 +270,7 @@ namespace Entidades
         public bool Insertar(Paquete p)
         {
 
-
+            
 
             return false;
         }
@@ -276,6 +278,7 @@ namespace Entidades
         public PaqueteDAO()
         {
 
+            _conexion = Properties.Settings.Default.ConnectionString;
 
         }
 

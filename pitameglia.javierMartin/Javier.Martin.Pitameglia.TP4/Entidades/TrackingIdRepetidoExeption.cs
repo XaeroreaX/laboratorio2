@@ -15,7 +15,7 @@ namespace Entidades
 
         public TrackingIdRepetidoException(string mensaje, Exception inner) : this(mensaje)
         {
-
+            
 
         }
 
