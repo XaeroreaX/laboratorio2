@@ -7,15 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace MainCorreo
 {
     public partial class FrmPpal : Form
     {
+
+        private Correo _correo;
+
         public FrmPpal()
         {
 
             InitializeComponent();
+
+            this._correo = new Correo();
 
             this.rtbMostrar.Enabled = false;
         }
@@ -27,6 +33,18 @@ namespace MainCorreo
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+
+            int trackingId;
+
+            if(int.TryParse(this.mtxtTrackingID.Text, out trackingId) == true)
+            {
+                Paquete Paquete = new Paquete(this.txtDireccion.Text, this.mtxtTrackingID.Text);
+
+                this._correo += Paquete;
+                
+
+            }
+
 
         }
 

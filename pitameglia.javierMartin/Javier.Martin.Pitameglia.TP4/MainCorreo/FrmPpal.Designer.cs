@@ -34,7 +34,7 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.lblTrackingID = new System.Windows.Forms.Label();
             this.mtxtTrackingID = new System.Windows.Forms.MaskedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDireccion = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rtbMostrar = new System.Windows.Forms.RichTextBox();
             this.lstEstadoEntregado = new System.Windows.Forms.ListBox();
@@ -73,7 +73,7 @@
             this.groupBox1.Controls.Add(this.mtxtTrackingID);
             this.groupBox1.Controls.Add(this.btnMostrarTodos);
             this.groupBox1.Controls.Add(this.btnAgregar);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblDireccion);
             this.groupBox1.Location = new System.Drawing.Point(365, 272);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(363, 156);
@@ -83,7 +83,7 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(23, 74);
+            this.txtDireccion.Location = new System.Drawing.Point(27, 109);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(183, 20);
             this.txtDireccion.TabIndex = 14;
@@ -91,7 +91,7 @@
             // lblTrackingID
             // 
             this.lblTrackingID.AutoSize = true;
-            this.lblTrackingID.Location = new System.Drawing.Point(20, 100);
+            this.lblTrackingID.Location = new System.Drawing.Point(24, 51);
             this.lblTrackingID.Name = "lblTrackingID";
             this.lblTrackingID.Size = new System.Drawing.Size(63, 13);
             this.lblTrackingID.TabIndex = 8;
@@ -99,20 +99,20 @@
             // 
             // mtxtTrackingID
             // 
-            this.mtxtTrackingID.Location = new System.Drawing.Point(23, 116);
+            this.mtxtTrackingID.Location = new System.Drawing.Point(27, 67);
             this.mtxtTrackingID.Name = "mtxtTrackingID";
             this.mtxtTrackingID.Size = new System.Drawing.Size(183, 20);
             this.mtxtTrackingID.TabIndex = 12;
             this.mtxtTrackingID.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtTrackingID_MaskInputRejected);
             // 
-            // label1
+            // lblDireccion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.lblDireccion.AutoSize = true;
+            this.lblDireccion.Location = new System.Drawing.Point(24, 93);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(52, 13);
+            this.lblDireccion.TabIndex = 4;
+            this.lblDireccion.Text = "Direccion";
             // 
             // groupBox2
             // 
@@ -220,7 +220,7 @@
         private System.Windows.Forms.Label lblEstadoEnViaje;
         private System.Windows.Forms.ListBox lstEstadoIngresado;
         private System.Windows.Forms.Label lblEstadoEntregado;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.RichTextBox rtbMostrar;
         private System.Windows.Forms.MaskedTextBox mtxtTrackingID;

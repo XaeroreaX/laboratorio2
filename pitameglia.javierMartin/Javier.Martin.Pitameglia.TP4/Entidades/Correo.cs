@@ -107,7 +107,7 @@ namespace Entidades
 
             this.DireccionDeEntrega = direccionEntrega;
             this.TrackingID = trackingID;
-
+            this._estado = EEstado.Ingresado;
 
         }
 
