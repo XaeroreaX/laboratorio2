@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-using System.Data.SqlClient;
+
 
 
 
@@ -260,29 +260,7 @@ namespace Entidades
 
     }
 
-    public static class PaqueteDAO
-    {
-        private SqlCommand _comando;
-
-        private string _conexion;
-
-
-        public bool Insertar(Paquete p)
-        {
-
-            
-
-            return false;
-        }
-
-        public PaqueteDAO()
-        {
-
-            _conexion = Properties.Settings.Default.ConnectionString;
-
-        }
-
-    }
+    
 
 
 

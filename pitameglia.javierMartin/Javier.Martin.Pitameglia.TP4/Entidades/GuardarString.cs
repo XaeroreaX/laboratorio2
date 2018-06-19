@@ -14,11 +14,11 @@ namespace Entidades
         {
             
             
-            /*StreamWriter file = new StreamWriter(archivo, texto);
+            StreamWriter file = new StreamWriter(archivo);
             
-            file.WriteLine(archivo);
+            file.WriteLine(texto);
 
-            file.Close();*/
+            file.Close();
 
             return "";
         }
