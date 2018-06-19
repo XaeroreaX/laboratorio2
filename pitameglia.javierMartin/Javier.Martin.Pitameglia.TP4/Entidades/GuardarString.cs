@@ -11,7 +11,13 @@ namespace Entidades
 
         public static string Guardar(this string texto, string archivo)
         {
+            
+            
+            /*StreamWriter file = new StreamWriter(archivo, texto);
+            
+            file.WriteLine(archivo);
 
+            file.Close();*/
 
             return "";
         }
