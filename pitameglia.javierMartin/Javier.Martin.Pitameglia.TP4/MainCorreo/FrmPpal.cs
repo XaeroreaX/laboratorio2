@@ -19,6 +19,8 @@ namespace MainCorreo
 
         private Thread thread;
 
+       // private ToolStripMenuItem mostrarToolStripMenuItem;
+
         public FrmPpal()
         {
 
@@ -29,12 +31,21 @@ namespace MainCorreo
             this._correo = new Correo();
 
             this.rtbMostrar.Enabled = false;
+
+
+            //this.lstEstadoEntregado.ContextMenuStrip = new 
+
+           // mostrarToolStripMenuItem = new ToolStripMenuItem();
+
+
+           // this.lstEstadoIngresado.
         }
 
         private void FrmPpal_Load(object sender, EventArgs e)
         {
 
         }
+
 
         private void paq_InformaEstado(object sender, EventArgs e)
         {
@@ -163,5 +174,19 @@ namespace MainCorreo
                 this.rtbMostrar.Text = element.MostrarDatos(element);
 
         }
+
+        private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            string path = @"Desktop\salida";
+
+            string message = GuardarString.Guardar(this._correo.MostrarDatos(this._correo), path);
+
+
+            
+        }
+
+
+        
     }
 }

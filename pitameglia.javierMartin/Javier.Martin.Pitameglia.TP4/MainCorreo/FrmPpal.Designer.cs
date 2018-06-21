@@ -101,6 +101,7 @@
             // mtxtTrackingID
             // 
             this.mtxtTrackingID.Location = new System.Drawing.Point(27, 67);
+            this.mtxtTrackingID.Mask = "000-00-0000";
             this.mtxtTrackingID.Name = "mtxtTrackingID";
             this.mtxtTrackingID.Size = new System.Drawing.Size(183, 20);
             this.mtxtTrackingID.TabIndex = 12;
@@ -142,6 +143,7 @@
             // 
             // lstEstadoEntregado
             // 
+            this.lstEstadoEntregado.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lstEstadoEntregado.FormattingEnabled = true;
             this.lstEstadoEntregado.Location = new System.Drawing.Point(506, 52);
             this.lstEstadoEntregado.Name = "lstEstadoEntregado";
@@ -199,6 +201,7 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "FrmPpal";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
             this.Load += new System.EventHandler(this.FrmPpal_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

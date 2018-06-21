@@ -30,3 +30,6 @@ C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pita
 E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll
 E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.pdb
 E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll.config
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll.config
