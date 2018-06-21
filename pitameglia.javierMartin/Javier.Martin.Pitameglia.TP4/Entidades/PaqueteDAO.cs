@@ -22,7 +22,7 @@ namespace Entidades
             return false;
         }
 
-        public static PaqueteDAO()
+        static PaqueteDAO()
         {
 
             

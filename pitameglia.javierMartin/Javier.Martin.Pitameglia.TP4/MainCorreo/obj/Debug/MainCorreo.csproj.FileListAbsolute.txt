@@ -27,3 +27,6 @@ C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pita
 C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
 C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.exe
 C:\martin\project\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.pdb
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\MainCorreo\bin\Debug\Entidades.dll.config

@@ -1,0 +1,7 @@
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\bin\Debug\Entidades.dll.config
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\bin\Debug\Entidades.dll
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\bin\Debug\Entidades.pdb
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\obj\Debug\Entidades.dll
+E:\XaeroreaX\proyectos\visual estudio\laboratorio2-master\pitameglia.javierMartin\Javier.Martin.Pitameglia.TP4\Entidades\obj\Debug\Entidades.pdb

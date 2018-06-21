@@ -9,7 +9,7 @@ namespace Entidades
     public interface IMostrar<T>
     {
 
-        public string MostrarDatos(IMostrar<T> elemento);
+         string MostrarDatos(IMostrar<T> elemento);
 
     }
 }

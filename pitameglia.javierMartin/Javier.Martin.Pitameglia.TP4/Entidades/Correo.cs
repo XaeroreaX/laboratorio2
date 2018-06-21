@@ -49,7 +49,16 @@ namespace Entidades
 
             get { return this._estado; }
 
-            set { this._estado = value; }
+            set
+            {
+
+
+                
+                this._estado = value;
+                this.InformarEstado.Invoke(new object(), new EventArgs());
+
+
+            }
 
         }
 
@@ -79,11 +88,15 @@ namespace Entidades
         {
             while(this._estado != EEstado.Entregado)
             {
-                Thread.Sleep(1000);
 
-                if (this._estado == EEstado.Ingresado) this._estado = EEstado.EnViaje;
+                Thread.Sleep(10000);
 
-                if (this._estado == EEstado.EnViaje) this._estado = EEstado.Entregado;
+                if (this._estado == EEstado.EnViaje) this.Estado = EEstado.Entregado;
+
+                if (this._estado == EEstado.Ingresado) this.Estado = EEstado.EnViaje;
+
+                
+
 
             }
 
@@ -177,6 +190,7 @@ namespace Entidades
         public List<Paquete> Paquetes
         {
             get { return this._paquetes; }
+
             set { this._paquetes = value; }
 
         }
@@ -194,7 +208,7 @@ namespace Entidades
             string MD = "";
             
             
-            List<Paquete> elements = (List<Paquete>)elemento;
+            List<Paquete> elements = ((Correo)elemento).Paquetes;
             
             foreach(Paquete element in elements)
             {
@@ -240,16 +254,26 @@ namespace Entidades
                     if(p == c._paquetes[i])
                     {
                         flag = true;
-                        c._paquetes[i] = (Paquete)p;
-                        break;
+                        throw new TrackingIdRepetidoException("lero lero");
+                        
 
                     }
 
-                    if(flag == false)
-                    {
-                        c._paquetes.Add(p);
-                    }
+                    
                 }
+
+
+                if (flag == false)
+                {
+
+                    c._paquetes.Add(p);
+
+                    c._mockPaquetes.Add(new Thread(p.MockCicloDeVida));
+
+                    c._mockPaquetes[c._mockPaquetes.Count - 1].Start();
+
+                }
+
             }
 
             return c;
