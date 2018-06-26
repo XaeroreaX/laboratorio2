@@ -8,7 +8,12 @@ using System.Data;
 
 namespace SQLpity
 {
-
+    /// <summary> Delegado que construira un una variable T apartir de los datos de SqlDataReader
+    /// 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="oDr"></param>
+    /// <returns></returns>
     public delegate T Constructor<T>(SqlDataReader oDr);
 
     public delegate string StringComanndSql<T>(T p);
@@ -21,6 +26,13 @@ namespace SQLpity
         #endregion
 
         #region Constructores
+
+
+
+        /// <summary> 
+        /// 
+        /// </summary>
+        /// <param name="connection"></param> 
 
         public AccesoDatos(string connection)
         {
@@ -73,7 +85,7 @@ namespace SQLpity
 
             try
             {
-                // LE PASO LA INSTRUCCION SQL
+                // LE PASO LA INSTRUCCION SQL Ejemplo: "SELECT id, nombre, apellido, edad FROM Personas"
                 _comando.CommandText = comando;
 
                 // ABRO LA CONEXION A LA BD
