@@ -7,64 +7,154 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Xml;
 using System.Xml.Serialization;
+using Entidades;
+
+
 
 
 
 namespace ArchivosPity
 {
 
-    public delegate string SaveFileText<T>(T item);
+    
 
-    public delegate T ConstructorOutArgument<T>();
+    
 
     public class XMLfile<T>
     {
 
-        public string Save(string path, T Element)
+        public string _path;
+
+        
+
+
+        public XMLfile(string path)
+        {
+            this._path = path;           
+            
+
+        }
+
+        public void Save(T Element, out string messageException)  
+        { this.Save(Element, out messageException, false); }
+
+
+
+        public void Save(T Element, out string messageException, bool append)
         {
 
-            string message = "Save is succefull";
+            messageException = "Save is successfully";
+
 
             try
             {
 
-                XmlTextWriter Arch = new XmlTextWriter(path, Encoding.UTF8);
+
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
+
+                TextWriter Arch = new StreamWriter(this._path, append);
 
 
-                XmlSerializer serializador = new XmlSerializer(typeof(T));
 
-                serializador.Serialize(Arch, Element);
+                serializer.Serialize(Arch, Element);
 
                 Arch.Close();
             }
 
-            catch (Exception miEx)
+
+            #region CatchException
+
+
+
+
+            catch (ArgumentException EX)
             {
 
-                message = miEx.ToString();
+                messageException = EX.Message;
 
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
             }
 
-            return message;
+            catch (UnauthorizedAccessException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (DirectoryNotFoundException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (IOException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (InvalidOperationException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (Exception EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+
+
+            #endregion
 
         }
 
 
 
-        public string Load(string path, ConstructorOutArgument<T> constructor, out T var)
+        public T Load(out string messageException)
         {
-            string message = "Load is succefull";
+            messageException = "Load is successfully";
+
+            object asignador = new object();
+
+
+            T var = (T)asignador;
+
+                   
+            
 
 
 
             try
             {
-                XmlTextReader Arch = new XmlTextReader(path);
 
 
-                XmlSerializer serializador = new XmlSerializer(typeof(T));
+                XmlTextReader Arch = new XmlTextReader(this._path);
 
-                var = (T)serializador.Deserialize(Arch);
+
+                XmlSerializer Deserializer = new XmlSerializer(typeof(T));
+
+
+                var = (T)Deserializer.Deserialize(Arch);
+
 
                 Arch.Close();
 
@@ -72,18 +162,61 @@ namespace ArchivosPity
 
 
 
+            #region CatchException
 
-            catch (Exception miEx)
+
+            catch (FileNotFoundException EX)
             {
 
-                message = miEx.ToString();
+                messageException = EX.Message;
 
-                var = constructor.Invoke();
-
-
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
             }
 
-            return message;
+  
+            catch (DirectoryNotFoundException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (UriFormatException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (InvalidOperationException EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+            catch (Exception EX)
+            {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+            }
+
+
+
+            #endregion
+
+
+            return var;
 
 
         }
@@ -91,7 +224,7 @@ namespace ArchivosPity
 
     }
 
-    public static class TEXTFile
+    public static class TEXTFileExtender
     {
 
         public static string Escribir(this string texto, string archivo, bool noSobrescribir)
@@ -162,7 +295,7 @@ namespace ArchivosPity
         public static string Leer(this string texto, string archivo)
         {
 
-            string message = "OK";
+            string message = default(string);
 
             try
             {
@@ -204,71 +337,7 @@ namespace ArchivosPity
             return message;
         }
 
-        public static string EscribirItem<T>(T item, SaveFileText<T> Metodo, string archivo)
-        {
-
-            string message = "Save is succefull";
-
-
-            try
-            {
-
-                StreamWriter file = new StreamWriter(archivo);
-
-                file.WriteLine(Metodo.Invoke(item));
-
-                file.Close();
-            }
-
-
-            #region Catch
-
-            catch (UnauthorizedAccessException EX)
-            {
-                message = EX.Message;
-
-            }
-
-            catch (ArgumentException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (DirectoryNotFoundException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (PathTooLongException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (IOException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (System.Security.SecurityException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (ObjectDisposedException EX)
-            {
-                message = EX.Message;
-            }
-
-            catch (Exception EX)
-            {
-                message = EX.Message;
-            }
-            #endregion
-
-
-            return message;
-
-        }
+      
 
 
 
@@ -299,43 +368,43 @@ namespace ArchivosPity
             #region Catch
                 catch (ArgumentException e)
                 {
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
                 }
 
                 catch(NotSupportedException e)
                 {
 
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
 
                 }
                 
                 catch(System.Security.SecurityException e)
                 {
 
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
 
                 }
 
                 catch(FileNotFoundException e)
                 {
 
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
 
                 }
 
                 catch(IOException e)
                 {
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
 
                 }
 
@@ -343,18 +412,20 @@ namespace ArchivosPity
                 catch(Exception e)
                 {
 
-                    
-                    returnAux = false;
-                    throw e;
+
+                returnAux = false;
+                throw e;
 
                 }
+
+            
             #endregion
 
             return returnAux;
 
         }
 
-        public static bool Deserializar<T>(string path, ConstructorOutArgument<T> constructor, out T variable)
+        public static bool Deserializar<T>(string path, out T variable)
         {
 
             bool returnAux = true;
@@ -373,44 +444,44 @@ namespace ArchivosPity
             #region Catch
                 catch (ArgumentException e)
                 {
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
                 }
 
                 catch (NotSupportedException e)
                 {
 
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
 
                 }
 
                 catch (System.Security.SecurityException e)
                 {
 
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
 
                 }
 
                 catch (FileNotFoundException e)
                 {
 
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
 
                 }
 
                 catch (IOException e)
                 {
 
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
 
                 }
 
@@ -418,11 +489,14 @@ namespace ArchivosPity
                 catch (Exception e)
                 {
 
-                    variable = constructor.Invoke();
-                    returnAux = false;
-                    throw e;
+                variable = default(T);
+                returnAux = false;
+                throw e;
 
                 }
+
+
+                
             #endregion
 
             return returnAux;
