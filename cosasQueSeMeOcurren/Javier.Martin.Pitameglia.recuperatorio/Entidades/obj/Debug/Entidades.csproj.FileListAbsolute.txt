@@ -1,0 +1,6 @@
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\bin\Debug\Entidades.dll
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\bin\Debug\Entidades.pdb
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\obj\Debug\Entidades.dll
+c:\users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\Entidades\obj\Debug\Entidades.pdb

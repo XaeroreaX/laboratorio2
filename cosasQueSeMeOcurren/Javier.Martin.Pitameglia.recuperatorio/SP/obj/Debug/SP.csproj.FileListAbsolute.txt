@@ -1,0 +1,12 @@
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\bin\Debug\SP.exe.config
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\bin\Debug\SP.exe
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\bin\Debug\SP.pdb
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\bin\Debug\Entidades.dll
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\bin\Debug\Entidades.pdb
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.csprojResolveAssemblyReference.cache
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.frmRSP.resources
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.Properties.Resources.resources
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.csproj.GenerateResource.Cache
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.csproj.CoreCompileInputs.cache
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.exe
+C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\SP\obj\Debug\SP.pdb
