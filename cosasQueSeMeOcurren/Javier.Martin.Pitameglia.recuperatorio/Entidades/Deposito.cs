@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Xml;
+using System.Xml.Serialization;
+using ArchivosPity;
 
 namespace Entidades
 {
+   
     public class Producto
     {
         public string nombre;
@@ -49,10 +55,10 @@ namespace Entidades
 
     }
 
-
+    
     public class Deposito
     {
-        private int _cantidad;
+        protected int _cantidad;
 
         public Producto[] productos;
 
@@ -111,4 +117,84 @@ namespace Entidades
         }
 
     }
+
+
+ 
+    public class DepositoHeredado : Deposito, ISerializar, Interface2
+    {
+        public Deposito deposito;
+
+        
+
+        public DepositoHeredado() : base()
+        {
+            this.deposito = new Deposito(this._cantidad);
+            this.deposito.productos = this.productos;
+        }
+
+        public DepositoHeredado(int cantidad) : base(cantidad)
+        {
+            this.deposito = new Deposito(cantidad);
+            this.deposito.productos = this.productos;
+        }
+
+        public bool guardar(string path)
+        {
+            bool returnAux = true;
+            
+
+            try
+            {
+
+                TextWriter tw = new StreamWriter(path, false);
+                XmlSerializer objXml = new XmlSerializer(typeof(Deposito));
+
+                objXml.Serialize(tw, this);
+                tw.Close();
+
+                // _XML.Save(@"C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\" + name, this);
+            }
+
+            catch(Exception EX)
+            {
+                returnAux = false;
+            }
+
+            return returnAux;
+        }
+
+        bool Interface2.leer(string path, out Deposito _deposito)
+        {
+            bool returnAux = true;
+            
+
+            try
+            {
+                TextReader tr = new StreamReader(path);
+                XmlSerializer objXml = new XmlSerializer(typeof(Deposito));
+
+                _deposito = (Deposito)objXml.Deserialize(tr);
+                tr.Close();
+
+                base.productos = _deposito.productos;
+
+                //_XML.Load(@"C:\Users\jmpit\source\repos\Javier.Martin.Pitameglia.recuperatorio\" + name, out deposito);
+            }
+
+            catch(Exception EX)
+            {
+                returnAux = false;
+                _deposito = default(DepositoHeredado);
+            }
+
+
+            return returnAux;
+        }
+    }
+
+
+    public interface ISerializar { bool guardar(string name); }
+
+    public interface Interface2 { bool leer(string name, out Deposito deposito); }
+
 }

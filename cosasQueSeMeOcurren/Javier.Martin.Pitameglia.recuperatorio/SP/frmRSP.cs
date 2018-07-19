@@ -91,9 +91,9 @@ namespace SP
         //retornará todas las características de la instancia que recibe como parametro. REUTILIZAR CODIGO.
         private void btnPunto3_Click(object sender, EventArgs e)
         {
-            /*MessageBox.Show(this._bn.Mostrar() + "\n" + this._bn.Mostrar(this._bn));
+            MessageBox.Show(this._bn.Mostrar() + "\n" + this._bn.Mostrar(this._bn));
             MessageBox.Show(this._bp.Mostrar() + "\n" + this._bn.Mostrar(this._bp));
-            MessageBox.Show(this._bm.Mostrar() + "\n" + this._bn.Mostrar(this._bm));*/
+            MessageBox.Show(this._bm.Mostrar() + "\n" + this._bn.Mostrar(this._bm));
         }
 
         //Crear la clase DepositoHeredado, que derive de Desposito y que implemente: 
@@ -101,7 +101,7 @@ namespace SP
         //IDeserializar(Xml(string, out Deposito):bool) de forma explícita
         private void btnPunto4_Click(object sender, EventArgs e)
         {
-            /*Producto p1 = new Producto("tomate", 10);
+            Producto p1 = new Producto("tomate", 10);
             Producto p2 = new Producto("azucar", 25);
             Producto p3 = new Producto("yerba", 30);
 
@@ -145,7 +145,7 @@ namespace SP
             else
             {
                 MessageBox.Show("NO Deserializado");
-            }*/
+            }
 
         }
         //Realizar el burbujeo de una excepción propia (MiException), comenzando en un método de instancia (de la clase Burbujeo),

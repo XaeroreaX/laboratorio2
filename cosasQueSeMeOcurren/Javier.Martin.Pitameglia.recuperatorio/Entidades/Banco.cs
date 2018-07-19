@@ -28,12 +28,15 @@ namespace Entidades
 
         public override string Mostrar()
         {
-            throw new NotImplementedException();
+
+            return string.Format("Banco:{0}---País:{1}", this._nombre, this._pais);
+
+
         }
 
         public override string Mostrar(Banco banco)
         {
-            throw new NotImplementedException();
+            return banco.Mostrar();
         }
     }
 
@@ -42,6 +45,11 @@ namespace Entidades
         public string _provincia;
 
         public BancoProvincial(BancoNacional bn, string provincia) : base(bn._nombre, bn._pais) { this._provincia = provincia; }
+
+        public override string Mostrar()
+        {
+            return string.Format("{0}---Provincia:{1}", base.Mostrar(), this._provincia);
+        }
 
     }
 
@@ -52,6 +60,10 @@ namespace Entidades
 
         public BancoMunicipal(BancoProvincial bp, string municipio) : base(new BancoNacional(bp._nombre, bp._pais), bp._provincia) { this._municipio = municipio; }
 
+        public override string Mostrar()
+        {
+            return string.Format("{0}---Municipio:{1}",base.Mostrar(), this._municipio);
+        }
 
     }
 }

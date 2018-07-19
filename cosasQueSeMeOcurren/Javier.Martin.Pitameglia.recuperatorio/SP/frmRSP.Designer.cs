@@ -66,6 +66,7 @@
             this.btnPunto3.TabIndex = 2;
             this.btnPunto3.Text = "PUNTO 3";
             this.btnPunto3.UseVisualStyleBackColor = true;
+            this.btnPunto3.Click += new System.EventHandler(this.btnPunto3_Click);
             // 
             // btnPunto4
             // 
@@ -75,6 +76,7 @@
             this.btnPunto4.TabIndex = 3;
             this.btnPunto4.Text = "PUNTO 4";
             this.btnPunto4.UseVisualStyleBackColor = true;
+            this.btnPunto4.Click += new System.EventHandler(this.btnPunto4_Click);
             // 
             // btnPunto5
             // 
