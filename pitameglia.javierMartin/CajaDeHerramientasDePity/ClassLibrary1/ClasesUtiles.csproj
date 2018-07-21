@@ -52,7 +52,6 @@
     <Compile Include="Archivo.cs" />
     <Compile Include="Calculadora.cs" />
     <Compile Include="ManejoSql.cs" />
-    <Compile Include="SqlDatabaseSetup.cs" />
     <Compile Include="Storage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

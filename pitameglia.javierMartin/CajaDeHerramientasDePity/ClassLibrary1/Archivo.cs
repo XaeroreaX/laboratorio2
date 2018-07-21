@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Xml;
 using System.Xml.Serialization;
-using Entidades;
+
 
 
 
@@ -40,25 +40,21 @@ namespace ArchivosPity
 
 
 
-        public void Save(T Element, out string messageException, bool append)
+        public bool Save(T Element, out string messageException, bool append)
         {
 
             messageException = "Save is successfully";
-
+            bool returnAux = true;
 
             try
             {
 
 
-                XmlSerializer serializer = new XmlSerializer(typeof(T));
+                TextWriter tw = new StreamWriter(this._path, append);
+                XmlSerializer objXml = new XmlSerializer(typeof(T));
 
-                TextWriter Arch = new StreamWriter(this._path, append);
-
-
-
-                serializer.Serialize(Arch, Element);
-
-                Arch.Close();
+                objXml.Serialize(tw, Element);
+                tw.Close();
             }
 
 
@@ -74,6 +70,7 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+                returnAux = false;
             }
 
             catch (UnauthorizedAccessException EX)
@@ -83,6 +80,8 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+
+                returnAux = false;
             }
 
             catch (DirectoryNotFoundException EX)
@@ -92,6 +91,7 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+                returnAux = false;
             }
 
             catch (IOException EX)
@@ -101,6 +101,7 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+                returnAux = false;
             }
 
             catch (InvalidOperationException EX)
@@ -110,6 +111,7 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+                returnAux = false;
             }
 
             catch (Exception EX)
@@ -119,24 +121,26 @@ namespace ArchivosPity
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
                 messageException += EX.ToString();
+                returnAux = false;
             }
 
 
 
             #endregion
 
+
+            return returnAux;
         }
 
 
 
-        public T Load(out string messageException)
+        public bool Load(out T element,out string messageException)
         {
             messageException = "Load is successfully";
 
-            object asignador = new object();
+            bool returnAux = true;
 
-
-            T var = (T)asignador;
+            element = default(T);
 
                    
             
@@ -147,16 +151,12 @@ namespace ArchivosPity
             {
 
 
-                XmlTextReader Arch = new XmlTextReader(this._path);
+                TextReader tr = new StreamReader(this._path);
+                XmlSerializer objXml = new XmlSerializer(typeof(T));
 
+                element = (T)objXml.Deserialize(tr);
+                tr.Close();
 
-                XmlSerializer Deserializer = new XmlSerializer(typeof(T));
-
-
-                var = (T)Deserializer.Deserialize(Arch);
-
-
-                Arch.Close();
 
             }
 
@@ -167,6 +167,7 @@ namespace ArchivosPity
 
             catch (FileNotFoundException EX)
             {
+                returnAux = false;
 
                 messageException = EX.Message;
 
@@ -177,7 +178,7 @@ namespace ArchivosPity
   
             catch (DirectoryNotFoundException EX)
             {
-
+                returnAux = false;
                 messageException = EX.Message;
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
@@ -186,7 +187,7 @@ namespace ArchivosPity
 
             catch (UriFormatException EX)
             {
-
+                returnAux = false;
                 messageException = EX.Message;
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
@@ -195,7 +196,7 @@ namespace ArchivosPity
 
             catch (InvalidOperationException EX)
             {
-
+                returnAux = false;
                 messageException = EX.Message;
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
@@ -204,7 +205,7 @@ namespace ArchivosPity
 
             catch (Exception EX)
             {
-
+                returnAux = false;
                 messageException = EX.Message;
 
                 messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
@@ -216,7 +217,7 @@ namespace ArchivosPity
             #endregion
 
 
-            return var;
+            return returnAux;
 
 
         }
@@ -227,7 +228,7 @@ namespace ArchivosPity
     public static class TEXTFileExtender
     {
 
-        public static string Escribir(this string texto, string archivo, bool noSobrescribir)
+        public static string Save(this string texto, string archivo, bool noSobrescribir)
         {
             string message = "Save is succefull";
 
@@ -292,7 +293,7 @@ namespace ArchivosPity
 
         }
 
-        public static string Leer(this string texto, string archivo)
+        public static string Load(this string texto, string archivo)
         {
 
             string message = default(string);
@@ -344,18 +345,29 @@ namespace ArchivosPity
     }
 
 
-    public static class BINARIFile
+    public class BINARIFile<T>
     {
 
-        public static bool Serializar<T>(string path, T item)
+        public string _path;
+
+        public BINARIFile(string path)
         {
+
+            this._path = path;
+
+        }
+
+        public bool Save(out string messageException, T item)
+        {
+
+            messageException = "Save is successfully";
 
             bool returnAux = true;
 
             try
             {
 
-                FileStream File = new FileStream(@path, FileMode.Create);
+                FileStream File = new FileStream(this._path, FileMode.Create);
 
                 BinaryFormatter Serializador = new BinaryFormatter();
 
@@ -366,55 +378,73 @@ namespace ArchivosPity
             }
 
             #region Catch
-                catch (ArgumentException e)
+                catch (ArgumentException EX)
                 {
 
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
                 }
 
-                catch(NotSupportedException e)
+                catch(NotSupportedException EX)
                 {
 
 
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
 
                 }
                 
-                catch(System.Security.SecurityException e)
+                catch(System.Security.SecurityException EX)
                 {
 
 
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
 
                 }
 
-                catch(FileNotFoundException e)
+                catch(FileNotFoundException EX)
                 {
 
 
-                returnAux = false;
-                throw e;
+                    messageException = EX.Message;
+
+                    messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                    messageException += EX.ToString();
+                    returnAux = false;
 
                 }
 
-                catch(IOException e)
+                catch(IOException EX)
                 {
 
-                returnAux = false;
-                throw e;
+                    messageException = EX.Message;
+
+                    messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                    messageException += EX.ToString();
+                    returnAux = false;
 
                 }
 
 
-                catch(Exception e)
+                catch(Exception EX)
                 {
 
 
-                returnAux = false;
-                throw e;
+                    messageException = EX.Message;
+
+                    messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                    messageException += EX.ToString();
+                    returnAux = false;
 
                 }
 
@@ -425,75 +455,91 @@ namespace ArchivosPity
 
         }
 
-        public static bool Deserializar<T>(string path, out T variable)
+        public  bool Loadr(out string messageException, out T element)
         {
+
+            element = default(T);
+
+            messageException = "Load is successfully";
 
             bool returnAux = true;
 
             try
             { 
-                FileStream File = new FileStream(@path, FileMode.Open);
+                FileStream File = new FileStream(this._path, FileMode.Open);
 
                 BinaryFormatter deSerializador = new BinaryFormatter();
 
-                variable = (T)deSerializador.Deserialize(File);
+                element = (T)deSerializador.Deserialize(File);
 
                 File.Close();
             }
 
             #region Catch
-                catch (ArgumentException e)
+                catch (ArgumentException EX)
                 {
-                variable = default(T);
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
-                }
+            }
 
-                catch (NotSupportedException e)
-                {
-
-                variable = default(T);
-                returnAux = false;
-                throw e;
-
-                }
-
-                catch (System.Security.SecurityException e)
+                catch (NotSupportedException EX)
                 {
 
-                variable = default(T);
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
 
-                }
+            }
 
-                catch (FileNotFoundException e)
+                catch (System.Security.SecurityException EX)
                 {
 
-                variable = default(T);
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
 
-                }
+            }
 
-                catch (IOException e)
+                catch (FileNotFoundException EX)
                 {
 
-                variable = default(T);
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
                 returnAux = false;
-                throw e;
 
-                }
+            }
 
-
-                catch (Exception e)
+                catch (IOException EX)
                 {
 
-                variable = default(T);
-                returnAux = false;
-                throw e;
+                messageException = EX.Message;
 
-                }
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+                returnAux = false;
+
+            }
+
+
+                catch (Exception EX)
+                {
+
+                messageException = EX.Message;
+
+                messageException += "\n\n------------------------------------------------------------------------------------------------------------------\n\n";
+                messageException += EX.ToString();
+                returnAux = false;
+
+            }
 
 
                 
